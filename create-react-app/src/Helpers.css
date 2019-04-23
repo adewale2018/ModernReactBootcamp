@@ -1,0 +1,17 @@
+.Align {
+  text-align: center;
+}
+.Helpers {
+  color: steelblue;
+  text-align: center;
+  font-size: 50px;
+  margin-top: 80px;
+}
+.Helpers-one {
+  color: green;
+  font-size: 30px;
+}
+.Helpers-red {
+  color: red;
+  font-size: 25px;
+}

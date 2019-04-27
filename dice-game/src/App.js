@@ -5,8 +5,8 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <h1>DICE GAME</h1>
-      <RollDice />
+      <h1 className="App-h1">DICE GAME</h1>
+        <RollDice />
     </div>
   );
 }

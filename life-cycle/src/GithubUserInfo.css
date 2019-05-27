@@ -1,0 +1,45 @@
+html {
+  box-sizing: border-box;
+}
+/* inherit border-box on all elements in the universe and before and after
+ */
+*, 
+*:before, 
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: lightgray;
+}
+.wrapper {
+	width: 96%;
+	max-width: 1200px;
+	margin:0 auto;
+	float: none;
+  background-color: #fff;
+  padding-top: 10px;
+  border: 2px dashed #000;
+  border-radius: 5px;
+}
+.row {
+  display: flex;
+  flex-flow: row wrap;
+  margin-left: 3em;
+}
+
+div img {
+	width: 80%;
+  max-width: 225px;
+  border: 2px dashed #fff; 
+  border-radius: 15px;
+  height: 100%;
+}
+h1 {
+  font-family: 'Stylish', sans-serif;
+	text-align: center;
+	color: #fff;
+  font-size: 2em;
+  letter-spacing: 3px;
+}
